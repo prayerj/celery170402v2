@@ -928,7 +928,7 @@ var Room = {
 
 	walkCorner: function(){
 		Notifications.notify(Room,_("{0} removes the suede cover and finds underneath are a middle-scale oil painting, a scroll of parchment, an old thick notebook.",Engine.x_name));
-		Notifications.notify(Room,_("There are also some ropes, some matches, a compass. On a pile of hay scatters some bottles of cokes. Most are empty but several are unopened. Must be left by someone stayed here before."));
+		Notifications.notify(Room,_("There are also some ropes, some matches, a compass. On a pile of hay scatters some bottles of soda. Most are empty but several are unopened. Must be left by someone stayed here before."));
 		Room._baseTimer = Engine.setTimeout(Room.enableButton.bind(null,"paintingButton"),2*1000);
 		
 	},
