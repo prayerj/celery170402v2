@@ -276,7 +276,7 @@ var Outside = {
 	},
 
  	plan: function(){
- 		Notifications.notify(Outside,_('{0} plans the trip. {0} packs a compass, some matches, some food and some bottles of cokes into a travelling bag',Engine.x_name));
+ 		Notifications.notify(Outside,_('{0} plans the trip. {0} packs a compass, some matches, some food and some bottles of soda into a travelling bag',Engine.x_name));
  		var plan = $('#planButton.button');
  		plan.hide();
 		Outside._baseTimer = Engine.setTimeout(Outside.enableButton.bind(null,'walkTowardButton'),3*1000);
